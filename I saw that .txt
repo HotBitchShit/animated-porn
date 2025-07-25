@@ -1,0 +1,4 @@
+นำเข้า flash. display. Sprite; นำเข้า flash. events. Event; นำเข้า flash .text .TextField; นำเข้า flash .text. TextFormat; var flash Container: Sprite = สไปรท์ใหม่(); add Child(แฟลชคอนเทนเนอร์); var text Field: Text Field = ฟิลด์ข้อความใหม่ (); text Field. text = "he saw that"; text Field .x = 100; text Field .y = 100; text Field .width = 200; text Field .height = 50; var text Format :Text Format = รูปแบบข้อความใหม่(); text Format .size = 36; text Field .set Text Format (รูปแบบข้อความ); flash Container .add Child(ฟิลด์ข้อความ); var is Green :บูลีน = จริง; ฟังก์ชัน flash Background(event :Event) :void { ลอง { // จำลองการเกิดข้อผิดพลาดของ vim ถ้า (Math. random() < 0.1) { โยนข้อผิดพลาดใหม่ ("ข้อผิดพลาด Vim"); } ถ้า (is Green)
+
+
+
